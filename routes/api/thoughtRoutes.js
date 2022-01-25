@@ -23,6 +23,10 @@ router
   router
   .router('/:thoughtId/reactions')
   .post(createReaction)
+
+
+  router
+  .router('/:thoughtId/reactions/:reactionId')
   .delete(deleteReaction)
 
 
